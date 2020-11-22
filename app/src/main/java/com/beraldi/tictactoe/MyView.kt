@@ -32,6 +32,7 @@ class MyView(context: Context?) : View(context),View.OnTouchListener {
 
     init {
         setOnTouchListener(this)
+        poll()
     }
 
     override fun onDraw(canvas: Canvas?) {
@@ -176,6 +177,10 @@ class MyView(context: Context?) : View(context),View.OnTouchListener {
     //in order to have multiplayer we should have  a function to pull from the server
     //we poll the server by generating a get request , we use volley
     fun poll(){
+        //we should call the poll into the init
+        //generate a get pointing to the service
 
+
+        //schedule another polling after DT
     }
 }
