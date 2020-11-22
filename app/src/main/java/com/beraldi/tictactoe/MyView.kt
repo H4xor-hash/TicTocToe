@@ -172,4 +172,10 @@ class MyView(context: Context?) : View(context),View.OnTouchListener {
         checkwinner()
         invalidate()
     }
+
+    //in order to have multiplayer we should have  a function to pull from the server
+    //we poll the server by generating a get request , we use volly
+    fun poll(){
+
+    }
 }
