@@ -174,7 +174,7 @@ class MyView(context: Context?) : View(context),View.OnTouchListener {
     }
 
     //in order to have multiplayer we should have  a function to pull from the server
-    //we poll the server by generating a get request , we use volly
+    //we poll the server by generating a get request , we use volley
     fun poll(){
 
     }
